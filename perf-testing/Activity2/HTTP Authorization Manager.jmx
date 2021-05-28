@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
+      <collectionProp name="AuthManager.auth_list">
+        <elementProp name="" elementType="Authorization">
+          <stringProp name="Authorization.url">https://the-internet.herokuapp.com/basic_auth</stringProp>
+          <stringProp name="Authorization.username">admin</stringProp>
+          <stringProp name="Authorization.password">admin</stringProp>
+          <stringProp name="Authorization.domain"></stringProp>
+          <stringProp name="Authorization.realm"></stringProp>
+        </elementProp>
+      </collectionProp>
+      <boolProp name="AuthManager.controlledByThreadGroup">false</boolProp>
+    </AuthManager>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
