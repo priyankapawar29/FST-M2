@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+  <hashTree>
+    <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="acitviy 3 CSS Selector Extractor" enabled="true">
+      <stringProp name="HtmlExtractor.refname">pageTitle</stringProp>
+      <stringProp name="HtmlExtractor.expr">h1[class=&quot;ui inverted header&quot;]</stringProp>
+      <stringProp name="HtmlExtractor.attribute"></stringProp>
+      <stringProp name="HtmlExtractor.default">NOT_FOUND</stringProp>
+      <boolProp name="HtmlExtractor.default_empty_value">false</boolProp>
+      <stringProp name="HtmlExtractor.match_number"></stringProp>
+      <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
+    </HtmlExtractor>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
