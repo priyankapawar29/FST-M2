@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1622442432987,597,Post Request,201,Created,Thread Group 1-1,text,true,,2065,663,1,1,https://api.github.com/user/keys,597,0,164
+1622442433586,284,get Request,200,OK,Thread Group 1-1,text,true,,2070,202,1,1,https://api.github.com/user/keys/53455306,284,0,0
+1622442433870,275,delete request,200,OK,Thread Group 1-1,text,true,,2070,202,1,1,https://api.github.com/user/keys/53455306,275,0,0
